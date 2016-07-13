@@ -1,0 +1,23 @@
+body{
+	background-color: #e6e6e6;
+	color: black;
+}
+.password{
+	font-size: 30px;
+}
+.sma{
+	font-size: 20px;
+}
+.carbonfiber{
+	background-image: url("http://www.clker.com/cliparts/L/e/S/6/F/V/carbon-fiber-wallpaper-x.svg");
+	background-repeat: no-repeat;
+	text-shadow: 3px 3px black;
+	color: white;
+	background-size: cover;
+}
+.white-text{
+	background-color: white;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding: 10px;
+}

@@ -1,0 +1,33 @@
+body{
+	background-color: #e6e6e6;
+}
+
+.password{
+	font-size: 30px;
+}
+.blue{
+	background-color: #FFFFCC;
+}
+.carbonfiber{
+	background-image: url("http://www.clker.com/cliparts/L/e/S/6/F/V/carbon-fiber-wallpaper-x.svg");
+	background-repeat: no-repeat;
+	text-shadow: 3px 3px black;
+	color: white;
+}
+.white{
+	color: white;
+	padding: 20px;
+}
+.white-text{
+	background-color: white;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding: 10px;
+}
+.white-text1{
+	background-color: white;
+	margin-left: 2em;
+	margin-right: 1em;
+	padding: 10px;
+}
+
