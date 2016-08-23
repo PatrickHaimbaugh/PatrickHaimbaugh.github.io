@@ -174,14 +174,32 @@
                     <h2 id = "dark" style = "color:#333333">Connect with Patrick Haimbaugh:</h2>
                 </div>
                 <div class="col-lg-4">
-                    <ul class="list-inline banner-social-buttons">
-                        <li>
-                                <a href="https://plus.google.com/u/1/106026613791934021274/about"target="_blank" class="btn btn-default btn-lg"><i class="fa fa-google-plus" aria-hidden="true"></i> <span class="network-name">Google</span></a>
-                            </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/patrick-haimbaugh-ab9320124"target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                        </li>
-                    </ul>
+                    <form action="https://formspree.io/phaimbaugh2000@gmail.com" method="POST">
+                <div class="col-md-6">
+           <div class="form-group">
+               <input type="text" class="form-control" placeholder="Your Name *" id="name" required="" data-validation-required-message="Please enter your name." name="name">
+               <p class="help-block text-danger"></p>
+           </div>
+           <div class="form-group">
+               <input type="email" class="form-control" placeholder="Your Email *" id="email" required="" data-validation-required-message="Please enter your email address." name="_replyto">
+               <p class="help-block text-danger"></p>
+           </div>
+           <div class="form-group">
+               <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required="" data-validation-required-message="Please enter your phone number." name="phone">
+               <p class="help-block text-danger"></p>
+           </div>
+       </div>
+       <div class="col-md-6">
+           <div class="form-group">
+               <textarea class="form-control" placeholder="Your Message *" id="message" required="" data-validation-required-message="Please enter a message." name="message"></textarea>
+               <p class="help-block text-danger"></p>
+           </div>
+       </div>
+       <div class="col-lg-12 text-center">
+                <div id="success"></div>
+           <button type="submit" class="btn btn-xl"><i class="fa fa-paper-plane-o" aria-hidden="true"></i>Send Message</button>
+                            </div>
+</form>
                 </div>
             </div>
 
