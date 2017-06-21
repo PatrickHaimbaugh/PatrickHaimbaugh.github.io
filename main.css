@@ -3,11 +3,11 @@ body{
 	font-family: monospace;
 	overflow: auto;
 }
-#Board{
+/*#Board{
 	width: 30em;
 	height: 39.5em;
 	background-color: #b3b3b3;
-}
+}*/
 #topTitle{
 	font-size: 2.5em;
 }
