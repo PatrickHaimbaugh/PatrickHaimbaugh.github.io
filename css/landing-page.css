@@ -21,7 +21,10 @@ h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
+.table-striped-custom> tbody > tr:nth-of-type(odd) {
+  background-color: blue;
 
+}
 .topnav {
     font-size: 14px; 
 }
