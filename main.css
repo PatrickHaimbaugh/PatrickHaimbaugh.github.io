@@ -1,6 +1,7 @@
 body{
 	background-color: #e6f2ff;
 	font-family: monospace;
+	overflow: auto;
 }
 #Board{
 	width: 30em;
